@@ -1,6 +1,0 @@
-<RCC>
-    <qresource prefix="/qt/qml/offbeat">
-        <file>images/OFFBEAT_Logo1.png</file>
-        <file>images/boot_image.png</file>
-    </qresource>
-</RCC>
