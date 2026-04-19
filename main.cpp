@@ -21,10 +21,13 @@ int main(int argc, char *argv[])
     Backend backend;
     qmlRegisterSingletonInstance("CustomClass", 1, 0, "Backend", &backend);
     // qml: import CustomClass 1.0
+    // use: Backend.callFunctionsFromBackend.h(~args i guess lol~)
 
     engine.load(QUrl(QStringLiteral("qrc:/qt/qml/offbeat/main.qml")));
     if (engine.rootObjects().isEmpty())
         return -1;
 
-    return app.exec();
+    return app.exec(); 
+    // This is gonna be a long development time... i'm gonna stick this project i think 
+    // Cuz im Awesome:3
 }
