@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/qt/qml/offbeat">
+        <file>main.qml</file>
+        <file>BootPage.qml</file>
+        <file>folderselectPage.qml</file>
+    </qresource>
+</RCC>
