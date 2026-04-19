@@ -97,7 +97,7 @@
   <ItemGroup>
     <ClCompile Include="Backend.cpp" />
     <ClCompile Include="main.cpp" />
-    <None Include="folderselectPage.qml" />
+    <None Include="main_screen.qml" />
     <QtRcc Include="qml.qrc" />
     <None Include="BootPage.qml" />
     <None Include="main.qml" />

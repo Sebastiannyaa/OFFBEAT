@@ -115,7 +115,7 @@ Item {
                     anchors.fill: parent
                     onClicked: {
                         // Switch Ui, Ignore underlined false error
-                        send("folderselectPage.qml",Screen.width, Screen.height)
+                        send("main_screen.qml",Screen.width, Screen.height)
                     }
                 }
             }
@@ -230,5 +230,15 @@ Item {
 
     Component.onCompleted: {
         textanimation.start()
+        if(Backend.getValueExistingMusicFolder() === 1) {
+            console.log("Folder exists")
+        } else {
+            Backend.createMusicVaultFolder()
+        }
     }
+
+
+
+
+
 }

@@ -1,6 +1,7 @@
 #pragma once
 #include <QObject>
 #include <QDebug>
+#include <QVariant>
 
 class Backend : public QObject {
     Q_OBJECT
@@ -17,5 +18,10 @@ public:
 
     Q_INVOKABLE int getValueExistingMusicFolder();
     
-    //Q_INVOKABLE void create
+    Q_INVOKABLE void createMusicVaultFolder();
+
+    Q_INVOKABLE void setConfValue(const QString& key, const QVariant& value);
+
+    Q_INVOKABLE QVariant getConfValue(const QString& key, const QVariant& value);
+
 };

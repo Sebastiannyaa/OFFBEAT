@@ -1,5 +1,6 @@
 import QtQuick 2.9
 import QtQuick.Window 2.2
+import CustomClass 1.0
 
 Window {
     id: rootid
@@ -13,7 +14,7 @@ Window {
     flags: Qt.Window | Qt.FramelessWindowHint
 
     
-
+    
     
     
     Loader {
