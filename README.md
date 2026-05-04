@@ -6,6 +6,8 @@
 
 
 
+PROJECT IS PAUSED DUE TO SHIFTS IN DEVELOPMENT INTERESTS. Working on a game. I won't spoil anything~ :3
+
 Offbeat is an open-source audio playback application focused on flexibility, experimentation, and real-time sound manipulation. It is designed as a lightweight but extensible music player with support for custom playlists and planned real-time audio effects.
 
 This project is currently in early development. The core architecture is actively being built, and many features are incomplete or subject to change as the system evolves.
